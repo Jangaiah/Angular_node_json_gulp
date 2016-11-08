@@ -1,0 +1,15 @@
+<!Doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div ng-controller="MainController">
+	<h1>Great, {{msg}}</h1>
+	<li ng-repeat="x in emp">Name : {{x.name}} Id:{{x.id}}</li>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
